@@ -5,13 +5,13 @@ using System.Threading;
 
 namespace DTOs
 {
-    class Catalog
+    public class Catalog
     {
-        List<string> TextsList { get; set; }
+        public List<string> TextSubjectsList { get; set; }
 
         public Catalog()
         {
-            TextsList = new List<string>();
+            TextSubjectsList = new List<string>();
         }
     }
 }
